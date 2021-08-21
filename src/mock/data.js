@@ -1,7 +1,7 @@
 export default {
   code: 
 `
-# 开始建造我们的小家...
+# 启程建造我们爱的建筑...
 
               /|\\
              / | \\ _
@@ -23,7 +23,8 @@ export default {
            jyp♥syhjy
              ♥syhj
                ♥
-# 开始邀请...`,
+# 开始邀请...
+`,
   executions: [{
     name:'等待中',
     time: '',

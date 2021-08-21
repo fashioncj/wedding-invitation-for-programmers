@@ -23,7 +23,7 @@
       </svg>
     </div>
     <Executions :canExecute="canExecute" @onUpdating="scrollToBottom" @onFinish="canOpen = true"/>
-    <invitation :canOpen="canOpen" @onClose="canOpen = false, hasClosed = true" @sendBarrage="onAfterSending"/>
+    <invitation :canOpen="canOpen" @onClose="canOpen = false, hasClosed = true" @sendBarrage="onAfterSending" ref="invitation"/>
     <Barrage :wish="wish" :canStart="canStart"/>
   </div>
 </template>
@@ -75,6 +75,7 @@
       scrollToBottom() {
         // 保持页面一直滚到最下面
         this.$refs.editor.scrollTop = 100000
+        this.$refs.invitation.showDivs()
       },
       // 代码输入
       progressivelyTyping() {
