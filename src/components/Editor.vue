@@ -83,10 +83,10 @@
           // 写代码每一帧的函数
           let step = () => {
             let randomNumber = Math.round(Math.random() * 6)
-            // 摸你打字的随机速度
-            if(count % 2 === 0 && randomNumber % 4 === 0){
+            // 模拟打字的随机速度
+            if(count % 1 === 0 && randomNumber % 1 === 0){
               this.currentCode = this.code.substring(0, typingCount)
-              typingCount++
+              typingCount += 3
             }
             // 大约每 24 帧光标闪动一次
             if(count % 24 === 0){

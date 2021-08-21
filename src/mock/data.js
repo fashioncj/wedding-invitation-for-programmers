@@ -1,46 +1,40 @@
 export default {
   code: 
 `
-# start...
-# running...`,
+# 开始建造我们的小家...
+
+
+           /|\\
+          / | \\ _
+  |      /  |  \\ |         
+  |/    /___|   \\|
+ \\|    /|   |___|\\
+  |   / | ..|   | \\
+__|__   | ..|   |  ____
+
+
+# 建造完毕...
+
+      jyp♥syh     yhjyp♥s
+    hjyp♥syhjy   yhjyp♥syhj
+  yhjyp♥syhjyp♥syhjyp♥syhjyp♥
+ yhjyp♥syhjyp♥syhjyp♥syhjyp♥sy
+  yp♥syhjyp♥syhjyp♥syhjyp♥syh
+    syhjyp♥syhjyp♥syhjyp♥sy
+      yp♥syhjyp♥syhjyp♥sy
+        syhjyp♥syhjyp♥s
+          jyp♥syhjyp♥
+            ♥syhjyp
+               ♥
+# 开始邀请...
+`,
   executions: [{
-    name:'初始化',
+    name:'等待中',
     time: '',
     duration: 0,
-    visible: false
-  }, {
-    name:'解压中',
-    time: '',
-    duration: 0,
-    visible: false
-  }, {
-    name:'组装中',
-    time: '',
-    duration: 0,
-    visible: false
-  }, {
-    name:'打包中',
-    time: '',
-    duration: 0,
-    visible: false
-  }, {
-    name:'微笑🙂',
-    time: '',
-    duration: 0,
-    visible: false
-  }, {
-    name:'大笑😄',
-    time: '',
-    duration: 0,
-    visible: false
-  }, {
-    name:'编译中...',
-    time: '',
     visible: false
   }],
   barrages: [
-    '66666666',
-    '哇哇哇',
     '😗 😙 😚 😋 '
   ],
 }

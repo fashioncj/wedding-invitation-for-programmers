@@ -5,22 +5,19 @@
         <div class="cover-content" :class="{'invitation-up':isOpening}">
           <div class="content-inside">
             <img class="content-inside-photo" src="../images/photo.jpg">
-            <p>我们结婚啦！</p>
-            <p><b>小商包 & 小姜果</b></p>
-            <p>时间：2021.09.12</p>
-            <p>地点：<b>我家我院</b></p>
+            <p><b> 我们结婚啦！</b></p>
+            <p><b>商宇航 & 姜漪鹏</b></p>
+            <p>时间：<b>2021.09.12</b></p>
+            <p>地点：<b>我家我院 竹林小筑</b></p>
+            <p>北京市怀柔区雁西镇官地村</p>
+            <p>上官地25-2号</p>
             <div class="content-inside-bless">
-              <input
-                placeholder="写下你的祝福" 
-                @keyup.enter="sendBarrage"
-                @focus="isFocused = true"
-                @blur="isFocused = false, hasEntered = false"
-                v-model="wish"
-                ref="wishInput"
-              >
               <p v-if="!wish && isFocused && hasEntered">请输入祝福哦</p>
               <div>
-                <button @click="sendBarrage">发送祝福弹幕</button>
+                <button onclick="window.open('https://map.baidu.com/mobile/webapp/search/search/qt=inf&uid=257967be7ef7056e0c0e6b64/newmap=1&sharecallbackflag=poiDetailPage&vt=map&da_from=weixin&openna=1')"><b>前往百度地图</b></button>
+              </div>
+              <p></p>
+              <div>
                 <button @click="closeInvitation">关闭</button>
               </div>
             </div>
@@ -170,17 +167,14 @@ export default {
                   background: #f7debb;
                   border: none;
                   outline: none;
+                  border-radius: 60px;
                   &:disabled{
                     opacity: 0.8;
                   }
                   &:first-child{
-                    margin-right: 10px;
+                    margin-left: 20%;
+                    margin-right: 20%;
                     flex: 1;
-                  }
-                  &:last-child{
-                    width: 60px;
-                    border: 1px solid #f7debb;
-                    background: transparent;
                   }
                 }
               }
