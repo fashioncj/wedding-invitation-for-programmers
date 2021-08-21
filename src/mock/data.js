@@ -3,31 +3,27 @@ export default {
 `
 # 开始建造我们的小家...
 
-
-           /|\\
-          / | \\ _
-  |      /  |  \\ |         
-  |/    /___|   \\|
- \\|    /|   |___|\\
-  |   / | ..|   | \\
-__|__   | ..|   |  ____
-
+              /|\\
+             / | \\ _
+     |      /  |  \\ |         
+     |/    /___|   \\|
+    \\|    /|   |___|\\
+     |   / | ..|   | \\
+   __|__   | ..|   |  ____
 
 # 建造完毕...
 
-      jyp♥syh     yhjyp♥s
-    hjyp♥syhjy   yhjyp♥syhj
-  yhjyp♥syhjyp♥syhjyp♥syhjyp♥
- yhjyp♥syhjyp♥syhjyp♥syhjyp♥sy
-  yp♥syhjyp♥syhjyp♥syhjyp♥syh
-    syhjyp♥syhjyp♥syhjyp♥sy
-      yp♥syhjyp♥syhjyp♥sy
-        syhjyp♥syhjyp♥s
-          jyp♥syhjyp♥
-            ♥syhjyp
+        p♥syh     yhjyp
+      yp♥syhjy   yhjyp♥sy
+    jyp♥syhjyp♥syhjyp♥syhjy
+    yp♥syhjyp♥syhjyp♥syhjyp
+     syhjyp♥syhjyp♥syhjyp♥
+       jyp♥syhjyp♥syhjyp
+         syhjyp♥syhjyp
+           jyp♥syhjy
+             ♥syhj
                ♥
-# 开始邀请...
-`,
+# 开始邀请...`,
   executions: [{
     name:'等待中',
     time: '',
