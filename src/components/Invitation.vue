@@ -5,6 +5,7 @@
         <div class="cover-content" :class="{'invitation-up':isOpening}">
           <div class="content-inside">
             <div class="w3-content w3-display-container">
+              <img class="mySlides" src="../images/8.jpg" style="width:100%">
               <img class="mySlides" src="../images/1.jpg" style="width:100%">
               <img class="mySlides" src="../images/2.jpg" style="width:100%">
               <img class="mySlides" src="../images/3.jpg" style="width:100%">
