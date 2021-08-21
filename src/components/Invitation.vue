@@ -5,9 +5,9 @@
         <div class="cover-content" :class="{'invitation-up':isOpening}">
           <div class="content-inside">
             <div class="w3-content w3-display-container">
+              <img class="mySlides" src="../images/2.jpg" style="width:100%">
               <img class="mySlides" src="../images/8.jpg" style="width:100%">
               <img class="mySlides" src="../images/1.jpg" style="width:100%">
-              <img class="mySlides" src="../images/2.jpg" style="width:100%">
               <img class="mySlides" src="../images/3.jpg" style="width:100%">
               <img class="mySlides" src="../images/4.jpg" style="width:100%">
               <img class="mySlides" src="../images/5.jpg" style="width:100%">
@@ -17,7 +17,7 @@
               <button class="w3-button w3-black w3-display-left" @click="minusDivs">&#10094;</button>
               <button class="w3-button w3-black w3-display-right" @click="plusDivs">&#10095;</button>
             </div>
-            <p><b><font size="7" color="red"> 我们结婚啦~ </font></b></p>
+            <p><b><font size="4" color="red"> 我们结婚啦~ </font></b></p>
             <p><b><font size="3" color="black"> 姜漪鹏 ♥ 商宇航 </font></b></p>
             <p>时间：<b>2021.09.12</b></p>
             <p>地点：<b>我家我院 竹林小筑</b></p>
