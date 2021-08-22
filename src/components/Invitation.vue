@@ -6,6 +6,9 @@
           <div class="content-inside">
             <div class="w3-content w3-display-container">
               <img class="mySlides" src="../images/3.jpg" style="width:100%">
+              <img class="mySlides" src="../images/9.jpg" style="width:100%">
+              <img class="mySlides" src="../images/10.jpg" style="width:100%">
+              <img class="mySlides" src="../images/11.jpg" style="width:100%">
               <img class="mySlides" src="../images/2.jpg" style="width:100%">
               <img class="mySlides" src="../images/8.jpg" style="width:100%">
               <img class="mySlides" src="../images/1.jpg" style="width:100%">
@@ -23,10 +26,11 @@
             <p>地点：<b>我家我院 竹林小筑</b></p>
             <p>北京市怀柔区雁西镇官地村</p>
             <p>上官地25-2号</p>
+            <p><b><font size="2" color="black"> 诚挚期待您的光临 </font></b></p>
             <div class="content-inside-bless">
               <p v-if="!wish && isFocused && hasEntered">请输入祝福哦</p>
               <div>
-                <button onclick="window.open('https://map.baidu.com/mobile/webapp/search/search/qt=inf&uid=257967be7ef7056e0c0e6b64/newmap=1&sharecallbackflag=poiDetailPage&vt=map&da_from=weixin&openna=1')"><b>前往百度地图</b></button>
+                <button onclick="window.open('https://map.baidu.com/mobile/webapp/search/search/qt=inf&uid=257967be7ef7056e0c0e6b64/newmap=1&sharecallbackflag=poiDetailPage&vt=map&da_from=weixin&openna=1')"><b>前往百度地图查看</b></button>
               </div>
               <p></p>
             </div>
@@ -39,6 +43,14 @@
                 <button @click="closeInvitation">关闭</button>
               </div>
             </div>
+            <p align="left">小tips:</p>
+            <p align="left">
+            1）请大家于8.31日前确认出席情况，及外地亲友们请确认火车飞机班次，以便后续准备安排
+            <br />2）鉴于疫情发展不可预测，我们会密切关注，并进行提前调整通知。外地亲友如因北京防疫政策，需核酸证明，还请辛苦担待
+            <br />3）外地亲友请于9.11日抵达北京。届时下午统一安排大巴由机场接至民宿（时间待定），并期待晚上在民宿小院我们一同露天烧烤，婚礼前共享长城脚下星空
+            <br />4）北京亲友，9.12日早晨，我们也会安排一辆大巴，从市区接至婚礼现场（集合时间地点待定）；并于婚礼结束后统一送回市区（可自驾，有停车位，如需大巴请提前说明）
+            
+            </p>
           </div>
         </div>
         <div class="cover-inside-left" :class="{'opening':isOpening}"></div>
